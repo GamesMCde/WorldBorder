@@ -13,7 +13,7 @@ public class BorderData {
     public static final EnumSet<Material> safeOpenBlocks = EnumSet.noneOf(Material.class);
     //these material IDs are ones we don't want to drop the player onto, like cactus or lava or fire or activated Ender portal
     public static final EnumSet<Material> painfulBlocks = EnumSet.noneOf(Material.class);
-    private static final int limBot = 0;
+    private static final int limBot = -64;
 
     static {
         safeOpenBlocks.add(Material.AIR);
